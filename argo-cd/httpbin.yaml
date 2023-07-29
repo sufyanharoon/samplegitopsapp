@@ -6,11 +6,11 @@ metadata:
 spec:
   project: default
   source:
-  chart: httpbin
-  repoURL: https://matheusfm.dev/charts
-  targetRevision: 0.1.1
-  helm:
-    releaseName: httpbin
+    chart: httpbin
+    repoURL: https://matheusfm.dev/charts
+    targetRevision: 0.1.1
+    helm:
+      releaseName: httpbin
   destination: 
     server: 'https://kubernetes.default.svc'
     namespace: default
